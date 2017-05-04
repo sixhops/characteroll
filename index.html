@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>CharacteROLL</title>
+    
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+
+    <!-- <link rel="shortcut icon" href="/images/favicon.ico"> -->
+
+    <!-- <script src="/js/main.js"></script> -->
+
+  </head>
+  <body>
+    <div class="titlebar">
+        <button class="settingsbtn" type="button">Set</button>
+        <p>CharacteROLL</p>
+        <button class="burgerbtn" type="button">Ham</button>
+    </div>
+    <div class="cleardiv"></div>
+    <div class="paramdiv">
+        <div class="paramheader">
+            <button class="lockbtn" type="button">Lock</button>
+            <p>Pitch</p>
+            <button class="rollbtn" type="button">Roll</button>
+        </div>
+        <div class="pitchcontrol">
+            <input type="range" name="pitch" id="pitchslider" value="5" min="1" max="10" />
+            <p>Your normal speaking pitch.</p>
+        </div>
+    </div>
+    <div class="paramdiv">
+        <div class="paramheader">
+            <button class="lockbtn" type="button">Lock</button>
+            <p>Size + Speed</p>
+            <button class="rollbtn" type="button">Roll</button>
+        </div>
+        <div class="sizespeedcontrol">
+            <div class="sizespeedoption">
+                <p><span class="big">BIG</span><br />
+                +<br />
+                <span class="slow">SLOW</span></p>
+            </div>
+            <div class="sizespeedoption">
+                <p><span class="big">BIG</span><br />
+                +<br />
+                <span class="fast">FAST</span></p>
+            </div>
+            <div class="sizespeedoption">
+                <p><span class="small">small</span><br />
+                +<br />
+                <span class="slow">SLOW</span></p>
+            </div>
+            <div class="sizespeedoption">
+                <p><span class="small">small</span><br />
+                +<br />
+                <span class="fast">FAST</span></p>
+            </div>
+        </div>
+    </div>
+    <div class="paramdiv">
+        <div class="paramheader">
+            <button class="lockbtn" type="button">Lock</button>
+            <p>Articulator</p>
+            <button class="rollbtn" type="button">Roll</button>
+        </div>
+        <div class="articulatorcontrol">
+            <select>
+                <option value="glottis">Glottis</option>
+                <option value="softpalette">Soft Palette</option>
+                <option value="tongue">Tongue (back, mid, front)</option>
+                <option value="alveolarridge">Alveolar Ridge</option>
+                <option value="teeth">Teeth</option>
+                <option value="lips">Lips</option>
+                <option value="cheeks">Cheeks</option>
+                <option value="jaw">Jaw</option>
+            </select>
+        </div>
+    </div>
+    <div class="actiondiv">
+        <button class="randombtn" type="button">RANDOMIZE</button>
+        <button class="savebtn" type="button">SAVE</button>
+        <button class="loadbtn" type="button">LOAD</button>
+    </div>
+  </body>
+</html>

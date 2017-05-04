@@ -1,0 +1,78 @@
+html,body{
+  margin:0;
+  padding:0;
+}
+
+div {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+p {
+  display: inline-block;
+  font-family: sans-serif;
+}
+
+.settingsbtn {
+  float: left;
+}
+
+.burgerbtn {
+  float: right;
+}
+
+.titlebar {
+  background-color: yellow;
+  text-align: center;
+}
+
+.titlebar p {
+  display: inline-block;
+}
+
+.cleardiv {
+  clear: both;
+}
+
+.paramdiv {
+  text-align: center;
+}
+
+.paramheader {
+  background-color: gray;
+  text-align: center;
+}
+
+.pitchcontrol select {
+  display: block;
+  width: 80%;
+}
+
+.sizespeedoption {
+  width: 23%;
+  display: inline-block;
+  border-style: solid;
+  border-width: 0.4em;
+  border-color: black;
+}
+
+.big {
+  font-size: 2em;
+  text-transform: uppercase;
+  line-height: 0.2em;
+  font-weight: bold;
+}
+.small {
+  font-size: 0.8em;
+  text-transform: lowercase;
+}
+.slow {
+  font-size: 1em;
+  letter-spacing: 0.4em;
+  line-height: 0.4em;
+}
+.fast {
+  font-size: 1em;
+  font-style: italic;
+  line-height: 0.4em;
+}
