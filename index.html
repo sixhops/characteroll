@@ -38,23 +38,23 @@
             <p>Size + Speed</p>
             <button class="rollbtn" type="button">Roll</button>
         </div>
-        <div class="sizespeedcontrol">
-            <div class="sizespeedoption">
+        <div id="sizespeedcontrol">
+            <div id="option1" class="sizespeedoption">
                 <p><span class="big">BIG</span><br />
                 +<br />
                 <span class="slow">SLOW</span></p>
             </div>
-            <div class="sizespeedoption">
+            <div id="option2" class="sizespeedoption">
                 <p><span class="big">BIG</span><br />
                 +<br />
                 <span class="fast">FAST</span></p>
             </div>
-            <div class="sizespeedoption">
+            <div id="option3" class="sizespeedoption">
                 <p><span class="small">small</span><br />
                 +<br />
                 <span class="slow">SLOW</span></p>
             </div>
-            <div class="sizespeedoption">
+            <div id="option4" class="sizespeedoption">
                 <p><span class="small">small</span><br />
                 +<br />
                 <span class="fast">FAST</span></p>
@@ -68,7 +68,7 @@
             <button class="rollbtn" type="button">Roll</button>
         </div>
         <div class="articulatorcontrol">
-            <select>
+            <select id="articulatorselect">
                 <option value="glottis">Glottis</option>
                 <option value="softpalette">Soft Palette</option>
                 <option value="tongue">Tongue (back, mid, front)</option>
@@ -81,9 +81,10 @@
         </div>
     </div>
     <div class="actiondiv">
-        <button class="randombtn" type="button">RANDOMIZE</button>
+        <button class="randombtn" onClick="rollAllParams()" type="button">RANDOMIZE</button>
         <button class="savebtn" type="button">SAVE</button>
         <button class="loadbtn" type="button">LOAD</button>
     </div>
+    <script src="js/script.js"></script>
   </body>
 </html>
